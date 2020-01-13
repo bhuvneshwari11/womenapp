@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.womenapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.womenapp.ui.Profileee.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_police"
+        android:name="com.example.womenapp.ui.Police.Police"
+        android:label="Nearby Police"
+        tools:layout="@layout/police_fragment" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.womenapp.ui.Chat.Chat"
+        android:label="Chat"
+        tools:layout="@layout/chat_fragment" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.womenapp.ui.Setting.Setting"
+        android:label="Setting"
+        tools:layout="@layout/setting_fragment" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.womenapp.ui.Logout.Logout"
+        android:label="Logout"
+        tools:layout="@layout/logout_fragment" />
+
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.womenapp.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.womenapp.ui.About.About"
+        android:label="About"
+        tools:layout="@layout/about_fragment" />
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.womenapp.ui.Exit.Exit"
+        android:label="Exit"
+        tools:layout="@layout/exit_fragment" />
+
+</navigation>
